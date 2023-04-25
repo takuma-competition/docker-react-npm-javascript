@@ -14,11 +14,17 @@ $docker-compose up -d --build
 - `vscode`でコンテナ内部に入る。
 - `vscode`でターミナルを起動し作業ディレクトリに移動する。
 ```bash:
-$cd react_npm_javascript_workdir/
+$cd ../react_npm_javascript_workdir/
 ```
 - `react`アプリの雛形を作成
 ```bash:
 $cd react_npm_javascript_workdir/
+```
+- `react`のアプリを`install`するかを聞かれるので`y`を入力して`Enter`を押す。
+```bash:
+Need to install the following packages:
+  create-react-app@5.0.1
+Ok to proceed? (y) 
 ```
 - 作成されたディレクトリへ移動
 ```bash:
