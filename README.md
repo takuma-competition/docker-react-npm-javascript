@@ -18,7 +18,7 @@ $cd ../react_npm_javascript_workdir/
 ```
 - `react`アプリの雛形を作成
 ```bash:
-$cd react_npm_javascript_workdir/
+$npx create-react-app react_npm_javascript
 ```
 - `react`のアプリを`install`するかを聞かれるので`y`を入力して`Enter`を押す。
 ```bash:
